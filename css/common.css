@@ -1,0 +1,55 @@
+@charset "utf-8";
+@import url('http://fonts.googleapis.com/earlyaccess/nanumgothic.css');
+
+/* css Reset */
+html,body,form,div,p,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,fieldset,th,td,button,span,strong.em{margin:0;padding:0;border:0;}
+body{-webkit-text-size-adjust:none;-ms-text-size-adjust:none;-webkit-tap-highlight-color: rgba(1, 119, 208, 0.3);/*-webkit-tap-highlight-color: transparent;  Android */}
+input,textarea,select,button{vertical-align:top;padding:0;font-size:15px;color:#3e3e3e;font:inherit;}
+input[type="button"],input[type="text"],input[type="image"],input[type="submit"],input[type="password"],input[type="tel"],input[type="number"],select,textarea{-webkit-appearance:none;-moz-appearance:none;border-radius:0;}
+input[type="checkbox"]{-webkit-appearance:checkbox;-moz-appearance:checkbox;}
+input[type="radio"]{-webkit-appearance:radio;-moz-appearance:radio;}
+input[type="button"]{border:0;border-radius:5px;}
+textarea{resize:none;}
+table{width:100%;border-collapse:collapse;border-spacing:0;}
+ol,ul,li{list-style:none;}
+img,fieldset,iframe{border:none;}
+address,cite,code,dfn,em,var,th,strong{font-style:normal;font-weight:normal;}
+a{text-decoration:none;font-size:12px;color:#3e3e3e;}
+article,aside,dialog,figure,footer,header,hgroup,nav,section{display:block;}
+legend,caption{display:none;}
+
+.wrap {margin: 0 auto; width: 100%;position: relative;}
+.header {position: relative;width:100%; display: block;}
+.sp-content {overflow: hidden;}
+
+.sp-slideshow {position: relative; margin-top: -17px; width: 100%;}
+
+.filter {position: absolute; text-align: center; width:100%; margin: 0 auto; padding-top: 50px;}
+.filter ul li{display: inline; font-family:"arial monospaced for SAP";  padding:0 20px; }
+.list {width: 1200px; width: 80%; height: 1106px; margin: 0 auto;}
+.list_1 {float: left; display: block; width: 350px; height: 450px; margin: 30px; background-color: #c9c9c9; }
+.list_2 {float: left; display: block; width: 350px; height: 450px; margin: 30px; background-color: #c9c9c9; }
+.list_3 {float: left; display: block; width: 350px; height: 450px; margin: 30px; background-color: #c9c9c9; }
+
+/*about*/
+.about_work {margin-bottom: 60px;}
+.about_work ul li {color: #666666;}
+.about_work ul p {font-size: 15px; padding-bottom: 8px;}
+.about_education ul li {color: #666666;}
+
+/*contact*/
+
+.contact-icon {text-align: center;}
+.contact_box {max-width:80%; height:auto; overflow: auto; margin:0 auto; text-align:center;}
+.contact_phone {width:30%; min-width:120px; float:left; margin: 5% 1%; display:inline-block;}
+.contact_phone img {width:16px; margin-bottom: 10px;}
+.contact_address {width:30%; min-width:120px; float:left; margin:5% 1%; display:inline-block;}
+.contact_address img {width:28px; margin-bottom: 10px;}
+.contact_email {width:30%; min-width:120px; float:left; margin:5% 1%; display:inline-block;}
+.contact_email img {width:28px; margin-bottom: 10px;}
+
+@media (max-width: 640px) {
+.contact_phone {width:20%; min-width:100%; margin: 15% 1%; display:inline-block}
+.contact_address {width:20%; min-width:100%; margin:15% 1%; display:inline-block}
+.contact_email {width:20%; min-width:100%; margin:15% 1%; display:inline-block}
+}
