@@ -43,9 +43,9 @@ legend,caption{display:none;}
 .contact_box {max-width:80%; height:auto; overflow: auto; margin:0 auto; text-align:center;}
 .contact_phone {width:30%; min-width:120px; float:left; margin: 5% 1%; display:inline-block;}
 .contact_phone img {width:16px; margin-bottom: 10px;}
-.contact_address {width:30%; min-width:120px; float:left; margin:5% 1%; display:inline-block;}
+.contact_address {width:30%; min-width:120px; text-align: center; margin:5% 1%; display:inline-block;}
 .contact_address img {width:28px; margin-bottom: 10px;}
-.contact_email {width:30%; min-width:120px; float:left; margin:5% 1%; display:inline-block;}
+.contact_email {width:30%; min-width:120px; text-align: center; margin:5% 1%; display:inline-block;}
 .contact_email img {width:28px; margin-bottom: 10px;}
 
 @media (max-width: 640px) {
