@@ -33,9 +33,7 @@ legend,caption{display:none;}
 
 /*about*/
 .about_work {margin-bottom: 60px;}
-.about_work ul li {color: #666666;}
-.about_work ul p {font-size: 15px; padding-bottom: 8px;}
-.about_education ul li {color: #666666;}
+.about_profile {width: 200px; text-align: center;}
 
 /*contact*/
 
